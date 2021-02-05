@@ -23,14 +23,14 @@ public class Spawner : MonoBehaviour
         {
             SpawnAsteroid();
 
-            //Spawn Game Object
-
             geriSayimSayaci.Calistir();
         }
     }
 
     void SpawnAsteroid()
-    {
-        Instantiate(asteroidPrefab);
+    { 
+        Instantiate(asteroidPrefab);    
+        
+       //Verilen objenin clone'unu oluşturur
     }
 }
